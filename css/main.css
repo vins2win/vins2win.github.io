@@ -1119,7 +1119,7 @@ header .logo a {
 	color: transparent;
 	width: 53px;
 	height: 35px;
-	background: url("../images/ABLogo.png") no-repeat center;
+	background: url("../images/logo.png") no-repeat center;
 	background-size: 52px 45px;
 }
 
@@ -1294,7 +1294,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(../images/nightsky.jpg) no-repeat center bottom;
+	background: #151515 url(../images/bg.png) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
