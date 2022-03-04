@@ -45,19 +45,26 @@
 	/* Owl Carousel
 	------------------------------------------------------ */
 	$("#owl-slider").owlCarousel({
-		navigation: false,
-		pagination: true,
+		navigation: true,
+		pagination: false,
 		itemsCustom: [
 			[0, 1],
 			[700, 2],
 			[960, 3]
 		],
-		navigationText: false
+		navigationText: ['<span class="fa fa-chevron-left fa-3x"></span>', '<span class="fa fa-chevron-right fa-3x"></span>'],
+		autoPlay: true,
+		loop: true,
+		autoplayTimeout: 1200,
+
+		nav: true,
+		dots: false,
 	});
 
 	$("#owl-slider-new").owlCarousel({
 		navigation: false,
 		pagination: true,
+
 		itemsCustom: [
 			[0, 1],
 			[700, 2],

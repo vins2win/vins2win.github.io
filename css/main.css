@@ -2242,7 +2242,7 @@ header .logo a {
   margin: 0 auto;
 }
 .services-list {
-  margin-top: 1.2rem;
+  /* margin-top: 1.2rem; */
   text-align: center;
 }
 .services-list .service {
@@ -2732,4 +2732,29 @@ span.img-profile img {
 
 .row.contact-info a:hover {
   color: #74a7f3;
+}
+
+.owl-prev span,
+.owl-next span {
+  color: #74a7f3;
+}
+
+.owl-prev span:hover,
+.owl-next span:hover {
+  color: #8199a3;
+}
+
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 50%;
+  height: 100%;
+}
+
+.owl-prev {
+  left: 7px;
+}
+
+.owl-next {
+  right: 7px;
 }
