@@ -1404,6 +1404,7 @@ header .logo a {
   display: table;
   position: relative;
   text-align: center;
+  z-index: 999;
 }
 .intro-overlay {
   position: absolute;
@@ -1739,7 +1740,8 @@ header .logo a {
 }
 
 #resume .resume-timeline {
-  max-width: 980px;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 #resume .timeline-wrap {
   position: relative;
@@ -2202,14 +2204,15 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #services {
-  background: #313131 url(../images/bg.jpg) no-repeat center;
+  /* background: #313131 url(../images/bg.jpg) no-repeat center; */
+  background-color: #3c3b3b;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   padding-top: 12rem;
   padding-bottom: 12rem;
   color: white;
-  position: relative;
+  /* position: relative; */
 }
 #services .overlay {
   position: absolute;
@@ -2236,6 +2239,7 @@ header .logo a {
 }
 .services-content {
   max-width: 1200px;
+  margin: 0 auto;
 }
 .services-list {
   margin-top: 1.2rem;
@@ -2289,7 +2293,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #stats {
-  background: #990047;
+  background: #2e292c;
   padding-top: 7.2rem;
   padding-bottom: 6rem;
   text-align: center;
@@ -2306,7 +2310,7 @@ header .logo a {
 }
 #stats .icon-part i {
   font-size: 4.8rem;
-  color: #000000;
+  color: #74a7f3;
 }
 #stats .stat-count {
   color: #ffffff;
@@ -2314,7 +2318,6 @@ header .logo a {
   margin-top: 1.2rem;
   margin-bottom: 0;
   font-family: "poppins-medium", sans-serif;
-  color: white;
 }
 #stats .stat-title {
   color: rgba(255, 255, 255, 0.5);
@@ -2720,4 +2723,13 @@ span.img-profile img {
 
 #ideas {
   background: #888480;
+}
+
+.row.contact-info p,
+.row.contact-info a {
+  color: #e5e5e5;
+}
+
+.row.contact-info a:hover {
+  color: #74a7f3;
 }
