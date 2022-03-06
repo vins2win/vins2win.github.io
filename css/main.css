@@ -1783,7 +1783,7 @@ header .logo a {
 
 #resume .timeline-header {
   float: left;
-  width: 35%;
+  width: 36%;
   padding-right: 90px;
   text-align: right;
 }
@@ -1796,7 +1796,7 @@ header .logo a {
   color: rgb(2, 2, 2);
 }
 #resume .timeline-content {
-  margin-left: 35%;
+  margin-left: 36%;
   padding-left: 60px;
 }
 #resume .timeline-content h4 {
